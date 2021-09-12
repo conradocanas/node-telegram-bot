@@ -3,7 +3,7 @@ const { getNFTPrice, getAllNFTsPrices } = require("./controllers/nfts");
 const { getLastMarketPlant } = require("./controllers/pvu");
 
 // Telegram Bot Config
-const telegramBotToken = "1967815731:AAGmxsmuyPHrf2bnztJgYJtFxtCzBXxACqM";
+const telegramBotToken = "";
 const bot = new TelegramBot(telegramBotToken, { polling: true });
 
 /////////////
