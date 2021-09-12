@@ -1,0 +1,8 @@
+{
+    "baseSiteUrl": "https://www.coinskid.com/",
+    "startUrl": "https://www.coinskid.com/crypto/",
+    "filePath": "./images/",
+    "concurrency": 1,
+    "maxRetries": 1,
+    "logPath": "./logs/"
+}

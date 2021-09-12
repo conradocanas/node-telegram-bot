@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "nodejs-web-scraper": "^6.0.1"
+  }
+}
