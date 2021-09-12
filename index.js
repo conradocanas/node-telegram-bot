@@ -1,10 +1,11 @@
 const TelegramBot = require("node-telegram-bot-api");
 const { getNFTPrice, getAllNFTsPrices } = require("./controllers/nfts");
 const { getLastMarketPlant } = require("./controllers/pvu");
+const keys = require("./keys");
 
 // Telegram Bot Config
 const telegramBotToken = "";
-const bot = new TelegramBot(telegramBotToken, { polling: true });
+const bot = new TelegramBot(keys.telegramBotToken, { polling: true });
 
 /////////////
 // Telegram Bot Messages
