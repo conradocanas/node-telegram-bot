@@ -7,7 +7,7 @@ async function getLastMarketPlant(called = false) {
     {
       headers: {
         Authorization:
-          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwdWJsaWNBZGRyZXNzIjoiMHhlNmUyZDUwODNkNTRjODM3ZjA5YTMwNjc5ZjA4NjZmNTY0MjA1ZDI2IiwibG9naW5UaW1lIjoxNjMxNDQ0Mzc0NTA0LCJjcmVhdGVEYXRlIjoiMjAyMS0wOS0wOCAxNToyMTowMiIsImlhdCI6MTYzMTQ0NDM3NH0.5GjTWKXcvNGaHEit_x7gJyeGr9u1JOHuAA4gnz-v5SY",
+          "",
       },
     }
   );
